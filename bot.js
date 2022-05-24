@@ -299,7 +299,7 @@ bot.on('message', async (message) => {
 
   if (message.content.startsWith('!join')) {
     try {
-      message.reply('Your Discord ID is: ' + message.author.id)
+      message.reply('Follow the link and click "CONNECT WALLET" to join: https://www.thedivinefemininenft.art/DAO?id=' + message.author.id)
     } catch (e) {
       console.log(e)
     }
